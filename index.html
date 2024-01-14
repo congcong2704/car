@@ -7,26 +7,43 @@
     <link rel="stylesheet" href="./public/css/style.css">
 </head>
 <body>
-    <ul class="den">
-        <li class="den1"></li>
-        <li class="den2"></li>
-        <li class="den3"></li>
-    </ul>
-    <ul>
-        <li> xăng xe 1</li>
-        <li class="xang1"></li>
-        <li> xăng xe 2</li>
-        <li class="xang2"></li>
-    </ul>
+    <div class="header">
 
-    <div class="race-track" style="background-image: url('./public/images/street.jpg');">
-        <div id="car1" class="car" style="background-image: url('./public/images/car_1.png');"></div>
-        <div id="car2" class="car" style="background-image: url('./public/images/car_2.png');"></div>
+        <div class="circle1"></div>
+        <div class="circle2"></div>
+        <div class="circle3"></div>
+    
+        <button class="start" onclick="startAnimation()"> Bắt đầu</button>
     </div>
+    <div class="car1">
+        Xăng xe 1
+        <div class="metrol1">
 
-    <!-- Thêm nút bắt đầu -->
-    <button id="startButton" onclick="startRace()">Bắt đầu</button>
+        </div>
 
-    <script src="./public/css/js/main.js"></script>
+    </div>
+    <div class="car2">
+        Xăng xe 2
+        <div class="metrol2">
+
+        </div>
+    </div>
+    <div class="road">
+        <img src="./public/images/street.jpg" alt="">
+    </div>
+    <div class="xe1">
+        <img id="car1" src="./public/images/car_1.png" alt="">
+        
+    </div>
+    <div class="xe2">
+        <img id="car2" src="./public/images/car_2.png" alt="">
+        
+    </div>
+    <div class="wall"></div>
+    
+    <button class="return_class"><a href="index.html">Bắt đầu lại</a></button>
+    
+    
+<script src="./public/css/js/main.js"></script>
 </body>
 </html>

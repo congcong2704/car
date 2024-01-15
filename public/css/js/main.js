@@ -4,8 +4,8 @@ document.addEventListener("DOMContentLoaded", function () {
   const circle1 = document.querySelector(".circle1");
   const circle2 = document.querySelector(".circle2");
   const circle3 = document.querySelector(".circle3");
-  const car1 = document.querySelector(".xe1");
-  const car2 = document.querySelector(".xe2");
+  const car1 = document.querySelector(".vàng");
+  const car2 = document.querySelector(".đỏ");
   const metrol1 = document.querySelector(".metrol1");
   const metrol2 = document.querySelector(".metrol2");
   const wall = document.querySelector(".wall");

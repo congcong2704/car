@@ -43,21 +43,21 @@
     
     position: relative;
 }
-.xe1 {
+.vàng {
     position: absolute;
     top: 185px;
 
 }
-.xe1 img {
+.vàng img {
     height: 229px;
 }
-.xe2 {
+.đỏ {
     position: absolute;
     top: 495px;
     padding-left: 32px;
 
 }
-.xe2 img {
+.đỏ img {
     height: 200px;
 
 }
